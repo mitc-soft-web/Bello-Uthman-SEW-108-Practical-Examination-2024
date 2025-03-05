@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+ul{
+    list-style: none;
+}
+.first-section{
+    height: 900px;
+    background-image: url(/images/34-14-11-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.first-header{
+    background-color: rgb(90, 59, 140);
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    padding-right: 0;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header1{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.header2{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.img1{
+    padding-top: 15px;
+}
+.img1 img{
+    padding-right: 6px;
+}
+.para1{
+    background-color: none;
+}
+.para1 a{
+    color: white;
+      text-decoration: none;
+}
+.para1 a:hover {
+    color: rgb(75, 75, 245);
+    transition: 0.15s;
+}
+/*FIRST BODY*/
+.first-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first-body-text{
+    color: white;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.body-img1{
+    margin-top: 60px;
+    padding-left: 200px;
+    flex-shrink: 900px;
+}
+.button1{
+    margin-top: 50px;
+    color: rgb(230, 178, 7);
+    width: 250px;
+    background-color: rgb(90, 59, 140);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(230, 178, 7) ;
+    padding-top: 10px;
+}
