@@ -4,10 +4,11 @@ body{
 }
 ul{
     list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .first-section{
     height: 900px;
-    background-image: url(/IMAGES/34-14-11-2.jpg);
+    background-image: url(./IMAGES/34-14-11-2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
